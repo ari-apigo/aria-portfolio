@@ -81,7 +81,7 @@ section, #mainImg {
   background: #e4d9e0;
   margin-top: 50px;
   margin-bottom: 50px;
-  height: 400px;
+  padding-bottom: 10px;
 }
 
 .sectionHeader {
@@ -91,11 +91,19 @@ section, #mainImg {
   padding-top: 15px;
 }
 
-#bubbleContainer {
+.expContainer {
   display: flex;
   justify-content: space-around;
 }
 
-.bubble {
+.bubbleContainer {
   width: 20%;
+}
+
+figure img {
+  width: 100%;
+}
+
+figcaption, h3 {
+  text-align: center;
 }
